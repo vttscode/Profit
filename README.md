@@ -15,7 +15,9 @@ Reikalavimai:
 (atitinkmai out.txt).
 
 Trades klasė:
+
 public class Trades
+
 {
 public int TradeId { get; set; }
 public string Type { get; set; } //BUY or SELL
@@ -28,6 +30,7 @@ public decimal Fee { get; set; }
 }
 
 data.csv pavyzdys:
+
 TradeId;Type;Date;Client;Security;Amount;Price;Fee
 1;BUY;2024-01-02;Jonas;TSLA;10;35,25;17,62
 2;BUY;2024-01-02;Rūta;TSLA;11;34,12;18,76
