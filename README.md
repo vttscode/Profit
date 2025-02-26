@@ -13,6 +13,7 @@ Reikalavimai:
 * Nuskaityti duomenų failą (data.csv) į Trades listą atsižvelgiant į tai, kad stulpelių eiliškumas gali skirtis;
 * Duotam Client ir Date suskaičiuoti pelną/nuostolį keikvienam Security, rezultatą atvaizduoti lentele
 (atitinkmai out.txt).
+
 Trades klasė:
 public class Trades
 {
@@ -25,6 +26,7 @@ public int Amount { get; set; }
 public decimal Price { get; set; }
 public decimal Fee { get; set; }
 }
+
 data.csv pavyzdys:
 TradeId;Type;Date;Client;Security;Amount;Price;Fee
 1;BUY;2024-01-02;Jonas;TSLA;10;35,25;17,62
